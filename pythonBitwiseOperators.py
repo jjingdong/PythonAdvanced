@@ -8,9 +8,9 @@ a | b
 #bitwise xor
 a ^ b
 #bitwise right shift
-a>>
-b>>
+a >> num
+b >> num
 #bitwise left shift
-a<<
-b<<
+a << num
+b << num
 
