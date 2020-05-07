@@ -14,3 +14,7 @@ b >> num
 a << num
 b << num
 
+'''
+Brian Kernighan's algorithm which is applied to turn off the rightmost bit of one in a number.
+'''
+a & (a-1)
