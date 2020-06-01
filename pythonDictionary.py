@@ -3,6 +3,7 @@ Python Dictionary
 '''
 import collections
 
+# Note. key cannot be a list
 a_dict = {'a' : 1, 'b' : 2, 'c' : 3}
 b_dict = {'a': [1, 3], 9 : 'example'}
 c_dict = {}
@@ -32,10 +33,13 @@ for k, v in c_dict.items():
     a = 0
 
 # sort dict by values
+c_dict = collections.Counter([1,2,3])
 for k, v in c_dict.most_common():
     a = 0
 
-''' collections.Counter() '''
+''' 
+collections.Counter() 
+'''
 lst = 'abcaabbccaaaaaa'
 # count = {'a': 9, 'b': 3, 'c': 3}
 count = collections.Counter(lst)
@@ -49,7 +53,9 @@ lst = ['cat', 'dog', 'cat', 'rabbit']
 # count = {'cat': 2, 'dog': 1, 'rabbit': 1}
 count = collections.Counter(lst)
 
-''' defaultdict(list) '''
+''' 
+defaultdict(list) 
+'''
 d = collections.defaultdict(list)
 d = collections.defaultdict(int)
 
