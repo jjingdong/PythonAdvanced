@@ -59,6 +59,29 @@ defaultdict(list)
 d = collections.defaultdict(list)
 d = collections.defaultdict(int)
 
+'''
+Dictionary Unions: |
+If dictionaries share a common key, the key-value pair int he second dictionary will be used
+'''
+a = {1: 'a', 2: 'b', 3: 'c'}
+b = {4: 'd', 5: 'e'}
+#  c = {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'}
+c = a | b
+# a = {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'}
+a |= b
+
+a = {1: 'a', 2: 'b', 3: 'c', 6: 'in both'}
+b = {4: 'd', 5: 'e', 6: 'but different'}
+# c = {1: 'a', 2: 'b', 3: 'c', 6: 'but different', 4: 'd', 5: 'e'}
+c = a | b
+
+a = {'a': 'one', 'b': 'two'}
+b = ((i, i**2) for i in range(3))
+# a = {'a': 'one', 'b': 'two', 0: 0, 1: 1, 2: 4}
+a |= b
+
+
+
 
 
 
