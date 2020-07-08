@@ -39,6 +39,8 @@ for k, v in c_dict.most_common():
 
 ''' 
 collections.Counter() 
+collections.defaultdict(int) is collections.Counter()
+
 '''
 lst = 'abcaabbccaaaaaa'
 # count = {'a': 9, 'b': 3, 'c': 3}
