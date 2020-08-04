@@ -45,6 +45,11 @@ matrix[1][0] = 1
 matrix[2][0] = 1
 print(matrix)
 
+# matrix = [[None, None, None],
+#           [None, None, None],
+#           [None, None, None]]
+matrix = [[None for _ in range(3)] for _ in range(3)]
+
 def checkCols():
     i = 0
     j = 0

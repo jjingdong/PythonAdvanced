@@ -1,0 +1,3 @@
+'''
+lamda arguments : expression
+'''

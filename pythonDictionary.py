@@ -1,5 +1,7 @@
 '''
 Python Dictionary
+
+dict[key1] = value1, key1 can be string, numbers, tuples
 '''
 import collections
 
@@ -22,7 +24,16 @@ c_dict.pop(1)
 c_dict.popitem()
 d_dict.clear()
 
-# ----------------------------------------------
+'''
+dict.get(key) ---> exception
+dict.get(key, not_found) ---> specify what value to return
+'''
+
+'''
+dict.keys()
+dict.values()
+dict.items()
+'''
 for k in c_dict.keys():
     a = 0
 
