@@ -63,7 +63,7 @@ d = collections.defaultdict(int)
 
 '''
 Dictionary Unions: |
-If dictionaries share a common key, the key-value pair int he second dictionary will be used
+If dictionaries share a common key, the key-value pair in the second dictionary will be used
 '''
 a = {1: 'a', 2: 'b', 3: 'c'}
 b = {4: 'd', 5: 'e'}
