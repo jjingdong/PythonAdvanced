@@ -25,6 +25,7 @@ re.compile('[a-e]')
 '''
 re.split(pattern, string, maxsplit=0, flags=0)
 '''
+s = ''.join(re.split(' |,|:', s))
 
 '''
 re.sub(pattern, repl, string, count=0, flags=0)
@@ -34,3 +35,5 @@ re.subn(pattern, repl, string, count=0, flags=0)
 '''
 re.escape(string)
 '''
+
+re.fullmatch
