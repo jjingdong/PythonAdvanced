@@ -35,5 +35,13 @@ num = s.index('a')
 # num = 66, return unicode value of 'B'
 num = ord('B')
 
+a = "2-5g-3-J"
+a = a.replace('-', '').upper
 
 s = ''.join(re.split(' |,|:', s))
+
+'''
+Reverse
+'''
+a = [1, 2, 3, 4]
+b = a[::-1]

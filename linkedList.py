@@ -6,13 +6,12 @@ class ListNode:
         self.val = val
         self.next = next
 
-
 pre = ListNode()
 pre.next = head
 node = head
 result = pre
 while node:
-    if node.val = val:
+    if node.val = target:
         a = 0
     else:
         b = 0

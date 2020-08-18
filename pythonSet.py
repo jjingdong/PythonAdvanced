@@ -12,6 +12,7 @@ d = a | c
 # Intersection
 d = a.intersection(c)
 d = a & c
+d = list(a & c)
 
 # Difference
 d = a.difference(c)

@@ -2,7 +2,9 @@ import collections
 import heapq
 
 '''
-
+Pythong heapq is minHeap
+Java priority Queue is minHeap
+*(-1) to make maxHeap
 '''
 
 
