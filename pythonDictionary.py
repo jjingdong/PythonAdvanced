@@ -43,10 +43,7 @@ for v in c_dict.values():
 for k, v in c_dict.items():
     a = 0
 
-# sort dict by values
-c_dict = collections.Counter([1,2,3])
-for k, v in c_dict.most_common():
-    a = 0
+
 
 ''' 
 collections.Counter() 
@@ -93,6 +90,20 @@ b = ((i, i**2) for i in range(3))
 # a = {'a': 'one', 'b': 'two', 0: 0, 1: 1, 2: 4}
 a |= b
 
+'''
+Sort Dictionary
+'''
+# sort dict by values
+c_dict = collections.Counter([1,2,3])
+for k, v in c_dict.most_common():
+    a = 0
+
+# sort dict by keys
+a_dict = {1:'a', 2:'b'}
+for k in sorted(a_dict.keys())
+
+# sort keys and values by key
+for i in sorted(a_dict)
 
 
 

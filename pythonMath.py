@@ -16,3 +16,9 @@ b = math.sqrt(10)
 
 # a = 0.123457, round 6 decimal only
 a = round(0.123456789, 6)
+
+'''
+math.log(x, base)
+math.log2(x)
+math.log10(x)
+'''

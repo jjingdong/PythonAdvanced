@@ -33,9 +33,15 @@ a = bin(5).count('1')
 #
 a = 3
 
+'''
+#bitwise xor
+a ^ b
+a or b, but not both
+'''
 # c = a
 c = a ^ 0
-
 # c = 0
 c = a ^ a
+a ^ 0 = a
+a ^ b ^ a = 0 ^ b = b
 

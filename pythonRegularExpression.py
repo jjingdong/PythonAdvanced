@@ -11,6 +11,8 @@ $   the end
 {}  number of occurrences
 ()  enclose a group o REs
 '''
+import re
+
 re.compile('[a-e]')
 
 '''
@@ -36,4 +38,9 @@ re.subn(pattern, repl, string, count=0, flags=0)
 re.escape(string)
 '''
 
-re.fullmatch
+'''
+re.fullmatch(pattern, string)
+'''
+pattern = '[a-zA-Z0-9]'
+b = 'abc'
+a = re.fullmatch(pattern, b)

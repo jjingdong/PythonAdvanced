@@ -26,8 +26,14 @@ s.split('delim')
 s.split()
 s.join(lst)
 s[start:end]
-'''
 
+'''
+s = 'abcdefg'
+# num = 0
+num = s.index('a')
+
+# num = 66, return unicode value of 'B'
+num = ord('B')
 
 
 s = ''.join(re.split(' |,|:', s))
