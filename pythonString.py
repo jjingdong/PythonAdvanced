@@ -18,6 +18,7 @@ s.isalpha()
 s.isdigit()
 s.isalnum()
 s.isspace()
+s.istitle()
 s.startswith('')
 s.endwith('')
 s.find('')
@@ -39,6 +40,11 @@ a = "2-5g-3-J"
 a = a.replace('-', '').upper
 
 s = ''.join(re.split(' |,|:', s))
+
+
+word = 'Flag'
+#a = True
+a = word.isupper() or word.islower() or word.istitle()
 
 '''
 Reverse

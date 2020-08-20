@@ -1,5 +1,6 @@
 '''
-permutation
+permutation()
+combination()
 '''
 import itertools
 

@@ -2,6 +2,8 @@
 Python Dictionary
 
 dict[key1] = value1, key1 can be string, numbers, tuples
+popitem(last=False)
+popitem()   same as popitem(last = True)
 '''
 import collections
 
@@ -103,10 +105,11 @@ a_dict = {1:'a', 2:'b'}
 for k in sorted(a_dict.keys())
 
 # sort keys and values by key
-for i in sorted(a_dict)
+a_dict = sorted(a_dict)
 
-
-
-
-
+'''
+OrderedDict preserves the order in which the keys are inserted
+move_to_end(key) same as move_toend(key, last=True)
+move_to_end(key, last=False)
+'''
 

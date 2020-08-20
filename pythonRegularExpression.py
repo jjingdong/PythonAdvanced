@@ -44,3 +44,7 @@ re.fullmatch(pattern, string)
 pattern = '[a-zA-Z0-9]'
 b = 'abc'
 a = re.fullmatch(pattern, b)
+
+word = 'Flag'
+pattern = '[A-Z]*|[A-Z]?[a-z]*'
+a = re.fullmatch(pattern, word)
