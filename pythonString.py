@@ -46,6 +46,11 @@ word = 'Flag'
 #a = True
 a = word.isupper() or word.islower() or word.istitle()
 
+
+vowels = tuple('aeiouAEIOU')
+word.startswith(vowels)
+word.startswith(('a', 'e', 'i', 'o', 'u'))
+
 '''
 Reverse
 '''

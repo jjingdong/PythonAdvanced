@@ -40,3 +40,13 @@ b = [n * n for n in a]
 # c = [1, 4]
 c = [n * n for n in a if n <=2]
 
+'''
+range(stop)
+range(start, stop[,step]
+'''
+# a = [0, 1, 2, 3, 4, 5, 6]
+a = list(range(6))
+# b = [3, 4, 5]
+b = list(range(3, 6))
+# c = [-6, -5, -4, -3, -2, -1, 0, 1]
+c = list(range(-6, 2))

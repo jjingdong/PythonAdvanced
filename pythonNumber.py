@@ -6,3 +6,6 @@ coverts a number in given base to decimal
 a = '11'
 #b = 3
 b = int(a, 2)
+
+c = float('inf')
+d = float('-inf')
