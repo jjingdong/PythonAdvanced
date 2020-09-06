@@ -23,7 +23,7 @@ b = itertools.permutations([1,2,3], 2)
 # (2, 3)
 # (3, 1)
 # (3, 2)
-for i in list(b):
+for i in b:
     print(i)
 
 '''
