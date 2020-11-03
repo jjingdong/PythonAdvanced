@@ -28,6 +28,8 @@ for i in b:
 
 '''
 combinations
+
+combination only use 1 value each time
 '''
 # combinations require 2nd arguments length
 c = itertools.combinations([1,2,3],2)
@@ -36,3 +38,5 @@ c = itertools.combinations([1,2,3],2)
 # (2, 3)
 for i in list(c):
     print(i)
+
+d = itertools.combinations(range(1,4), 2)

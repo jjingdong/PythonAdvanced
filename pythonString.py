@@ -35,6 +35,8 @@ num = s.index('a')
 
 # num = 66, return unicode value of 'B'
 num = ord('B')
+# char = B, return char representation of unicode 66
+char = chr(num)
 
 a = "2-5g-3-J"
 a = a.replace('-', '').upper
