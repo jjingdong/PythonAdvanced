@@ -1,5 +1,5 @@
 '''
-
+#bitwise and
 a & b
 #bitwise or
 a | b

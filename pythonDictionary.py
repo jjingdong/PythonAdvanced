@@ -45,7 +45,29 @@ for v in c_dict.values():
 for k, v in c_dict.items():
     a = 0
 
+'''
+Sort Dictionary
+'''
+# sort dict by keys
+a_dict = {1: 'a', 2: 'b'}
+for k in sorted(a_dict.keys()):
+    a = 0
 
+# sort dict by values
+c_dict = collections.Counter([1, 2, 3])
+for k, v in c_dict.most_common():
+    a = 0
+
+# sort dict by values
+for k,v in sorted(c_dict.items(), key = lambda item: item[1], reverse = True):
+    a = 0
+
+# sort dict by values
+for k in sorted(log_dict, key = log_dict.get, reverse = True):
+    a = 0
+
+# sort keys and values by key
+a_dict = sorted(a_dict)
 
 ''' 
 collections.Counter() 
@@ -152,22 +174,6 @@ Dictionary difference
 '''
 difference = dict(dict1.items() ^ dict2.items())
 
-
-'''
-Sort Dictionary
-'''
-# sort dict by values
-c_dict = collections.Counter([1,2,3])
-for k, v in c_dict.most_common():
-    a = 0
-
-# sort dict by keys
-a_dict = {1:'a', 2:'b'}
-for k in sorted(a_dict.keys()):
-    a = 0
-
-# sort keys and values by key
-a_dict = sorted(a_dict)
 
 '''
 OrderedDict preserves the order in which the keys are inserted
